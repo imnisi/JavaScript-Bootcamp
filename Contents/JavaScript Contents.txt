@@ -1,0 +1,8 @@
+JavaScript Contents:
+1.JavaScript Basics
+2. Numbers and Math
+3. Strings
+4. Variables
+5. Booleans, if...else statements, and switch statements
+6.Functions
+7.Objects and DOM

@@ -1,0 +1,15 @@
+# Lesson - 1 JavaScript Basics
+
+1. Use alert(...); to display 'Good Morning!' in a popup.
+2. Display your name in a popup.
+3. Using math, calculate 10 + 5 in the console.
+4. Calculate 2 + 2 - 5 in the console.
+5. Use document.body.innerHTML = ...; to display 'Good Morning!' on the web page.
+6. Display your name on the web page
+
+! Challenge Exercises
+
+7. Your order a T-shirt for $10, socks for $8, and dinner plates for $20. Use JavaScript to calculate
+the total cost of your order.
+8. Your bank account has $100, you spend $20 on lunch, $50 on dinner, amd earn $200 from your job. Calculate how much money you have now.
+9. Use document.body.innerHTML = ...; to make the web page blank.
