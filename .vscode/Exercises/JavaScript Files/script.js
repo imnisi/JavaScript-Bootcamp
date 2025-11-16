@@ -14,7 +14,7 @@ document.body.innerHTML = "Nishant Kumar";
 console.log("Total Cost: $", 10 + 8 + 20);
 
 // 6. Your bank account has $100, you spend $20 on lunch, $50 on dinner, amd earn $200 from your job. Calculate how much money you have now.
-console.log(" money remaining: $", 200 - 100 + 20 + 50);
+console.log("Total Money remaining: $", 200 - 100 + 20 + 50);
 
 // 7. Use document.body.innerHTML = ...; to make the web page blank.
 document.body.innerHTML = "";
