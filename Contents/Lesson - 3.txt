@@ -1,0 +1,37 @@
+# Lesson - 2 Strings
+
+1. Create the text 'My Name is:' as a string.
+
+2. Create your name as a string.
+
+3. Using concatenation, add the 2 strings from 2 and 3 together to create the text: 'My Name is:'___' (replace ___ with your name).
+
+4. At a restaurant, your order 1 coffee ($5) and 1 bagel ($3). Using math, calculate the total cost, and using 
+concatenation, create the text: 'Total cost $___'(replace ___ with the total you calculated).
+
+5.Do the same thing as 4, but use a template string and interpolation.
+
+6. Display the text from 5 in a popup using alert();
+
+7. You order 1 coffee ($5.99) and 1 bagel ($2.95). Using math, calculate the total cost, and using concatenation, create the text: 'Total cost: $___'(hint: calculate in cents to avoid inaccuracies).
+
+8.Do the same thing as 7, but use a template string and interpolation.
+
+9. Display the text from 8 in a popup.
+
+10. Using a multi-line string, create the text from 8 and add a line of text underneath: 'Thank you, come again!'. Display both lines in a popup.
+
+! Challenge Exercises:
+
+In the amazon project, update the cart to 2 basketballs ($20.95 each) with $4.99 shipping, and 2 t-shirts ($7.99 each) with $4.99 shipping.
+
+11. Using interpolation, create the first line of text (use math to calculate the numbers 4 and 57.88).
+
+12. Create second line of text: 'Shipping & handling: $9.98' (use math).
+
+13. Create third line:'Total before text: $67.86' (use math).
+
+14. Create fourth line of text: 'Estimated text (10%): $6.79' (use math and Math.round(); to calculate the exact
+number). 
+
+15. Create fifth line of tet: 'Order total: $74.65'.
