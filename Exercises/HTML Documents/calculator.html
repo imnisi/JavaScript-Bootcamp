@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson: 5 - Calculator App</title>
+  </head>
+  <body>
+    <p>
+      <button onclick="calculator('1')">1</button>
+      <button onclick="calculator('2')">2</button>
+      <button onclick="calculator('3')">3</button>
+    </p>
+
+    <p>
+      <button onclick="calculator('4')">4</button>
+      <button onclick="calculator('5')">5</button>
+      <button onclick="calculator('6')">6</button>
+    </p>
+
+    <p>
+      <button onclick="calculator('7')">7</button>
+      <button onclick="calculator('8')">8</button>
+      <button onclick="calculator('9')">9</button>
+    </p>
+
+    <p>
+      <button onclick="calculator('0')">0</button>
+      <button onclick="calculator('+')">+</button>
+      <button onclick="calculator('=')">=</button>
+    </p>
+
+    <script>
+      let calculation = "";
+
+      function calculator(val) {
+        switch (val) {
+          case "1":
+            calculation += "1";
+            break;
+          case "2":
+            calculation += "2";
+            break;
+          case "3":
+            calculation += "3";
+            break;
+          case "4":
+            calculation += "4";
+            break;
+          case "5":
+            calculation += "5";
+            break;
+          case "6":
+            calculation += "6";
+            break;
+          case "7":
+            calculation += "7";
+            break;
+          case "8":
+            calculation += "8";
+            break;
+          case "9":
+            calculation += "9";
+            break;
+          case "0":
+            calculation += "0";
+            break;
+          case "+":
+            calculation += " + ";
+            break;
+          case "=":
+            alert(`Total result : ${eval(calculation)}`);
+            return;
+          default:
+            break;
+        }
+        console.log(calculation);
+      }
+
+      //  JavaScript evaluates 010 as octal (base 8)
+      // eval("8 + 10 + 7 + 12 + 010"); // 45
+    </script>
+  </body>
+</html>

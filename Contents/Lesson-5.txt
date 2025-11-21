@@ -1,0 +1,31 @@
+# Lesson - 5: Variables
+
+1. Create a <script> element. Inside the <script>, create a variable called 'name', and save your name in this variable (as a string).
+
+2. Continuing from 1, display the message 'My name is: ${name}' in the console (insert the 'name' variable created in 1 into this message).
+
+3. At a restaurant, you order 1 coffee ($5), 2 bagels ($3 each), and 1 soup ($9). Calculate the cost and save it in a variable called 'cost'.
+
+4. Continuing from 3, display 'Cost of food:$${cost}' in the console.
+
+5. Let's say the restaurant charges a 10% tax. Using the 'cost' variable from 3, Calculate the tax, and save the result in a variable.
+
+! Challenge Exercises:
+
+Create a new file calculator.html for this project.
+
+6. Create 5 buttons 1, 2, 3, + =
+
+7. Create a <script>, create a variable called 'calculation;, and save an empty string inside: let calculation=";
+(This variable will store the calculation like '1 + 2' or '11 + 2 + 2')
+
+8. When we click the '1' button:
+  - Add the string '1' to the calculation variable" calculation += '1';
+  - Display the calculation in the console: Console.log(calculation);
+
+9. Do the same for the '2', '3', and '+' buttons (add ' + ' instead of '+').
+
+10. When we click the '=' button, use the code: eval(calculation);
+[eval(...) converts the calculation string into actual math]
+ - save the result back in 'calculation': calculation = eval(calculation);
+ - Display the result in the popup.
