@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson:6 - Booleans and Conditionals</title>
+  </head>
+  <body>
+    <script>
+      console.log(3 > 5); // false
+      console.log(5 == "5.00"); // loosely comparison true
+      console.log(5 === "5.00"); // strict comparison  false
+      console.log(4 > 5 - 5); // true
+
+      if (true) {
+        console.log("Inside If statement");
+      } else {
+        console.log("Inside else statement");
+      }
+
+      const age = 17;
+
+      if (age >= 18) {
+        console.log("You are eligible for driving");
+      } else if (age >= 16) {
+        console.log("You are almost there!");
+      } else {
+        console.log("Not eligible for driving");
+      }
+
+      // Logical Operators &&(AND), ||(or) and !(not)
+      console.log(true && true); // true
+      console.log(true && false); // false
+      console.log(true && true); // true
+      console.log(false && false); // false
+
+      console.log(true || true); // true
+      console.log(true || false); //true
+      console.log(false || true); // true
+      console.log(false || false); // false
+
+      console.log(!true); // false
+      console.log(!false); // true
+
+      // Truthy and falsy value
+      // falsy values: false, 0, '', NaN, undefined, null
+      // truthy values: except everything above are truthy values
+
+      const numberValue = 5;
+      if (numberValue) {
+        console.log("Truthy Value");
+      }
+
+      console.log(!0); // true;
+      console.log("text" / 5); // NaN
+
+      let variable4;
+      console.log(variable4); // undefined
+
+      // Shortcuts for if- statement:
+      // Ternary Operator
+      const result = 0 ? "truthy" : "falsy";
+      console.log(result); // falsy
+
+      // Short-Circuit Evaluation
+
+      // && (AND operator or Guard operator)
+      false && console.log("hello");
+
+      const message = 5 && "Hello";
+      console.log(message); // Hello
+
+      // || (OR operator or Default operator)
+
+      const currency = "EUR" || "USD";
+      console.log(currency);
+
+      const msg = undefined || "text";
+      console.log(msg);
+    </script>
+  </body>
+</html>
