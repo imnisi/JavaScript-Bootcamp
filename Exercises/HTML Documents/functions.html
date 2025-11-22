@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson: 7 - functions</title>
+  </head>
+  <body>
+    <script>
+      function print() {
+        console.log("Hello Guys!");
+        console.log(2 + 2);
+      }
+
+      print(); // Calling the function
+
+      function calculateTax(cost, taxPercent = 0.1) {
+        console.log(cost * taxPercent);
+      }
+
+      calculateTax(2000, 0.2); // 400
+      calculateTax(4000); // NaN
+      calculateTax(5000); // 500
+    </script>
+  </body>
+</html>
